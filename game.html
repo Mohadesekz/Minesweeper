@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MINESWEEPER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body id="gameBody">
+    <h1 id="gameName">MINESWEEPER</h1>
+    <br />
+    <br />
+    <button class="levelButton" id="easyBut">Easy</button>
+    <button class="levelButton" id="medBut">Medium</button>
+    <button class="levelButton" id="hardBut">Hard</button>
+    <button class="levelButton" id="testBut">Test</button>
+    <br />
+    <br />
+    <button id="restartButton" class="effect">Restart Game</button>
+    <br />
+    <br />
+    <h3 id="status">You win</h3>
+    <div id="board"></div>
+    <br />
+    <p id="warning">
+      <i class="fa fa-warning"></i> Plase note that
+      <i class="fa fa-warning"></i>
+    </p>
+    <p id="addFlag">
+      To place a flag, hover on any specific cell and press "f"
+    </p>
+    <p id="removeFlag">To remove a flag, hover on flagged cell and press "r"</p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
