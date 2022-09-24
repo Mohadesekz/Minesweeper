@@ -1,1 +1,1 @@
-readme
+Just get the Minesweeper files and open game.html. ENJOY!
